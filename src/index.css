@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  /*PRIMARIO*/
+  --LimeGreen: hsl(163, 72%, 41%);
+  --BrightRed: hsl(356, 69%, 56%);
+  --Facebook: hsl(208, 92%, 53%);
+  --Twitter: hsl(203, 89%, 53%);
+  --InstagramLeft:hsl(37, 97%, 70%);
+  --InstagramRight:hsl(329, 70%, 58%);
+  --YouTube: hsl(348, 97%, 39%);
+  
+  /*Dark Theme*/
+  --ToggleL:hsl(210, 78%, 56%);
+  --ToggleR:hsl(146, 68%, 55%);
+  --VeryDarkBlueBG: hsl(230, 17%, 14%);
+  --VeryDarkBlueTop: hsl(232, 19%, 15%);
+  --DarkDesaturatedBlueCardBG: hsl(228, 28%, 20%);
+  --DesaturatedBlueText: hsl(228, 34%, 66%);
+  --WhiteText: hsl(0, 0%, 100%);
+  /*Light Theme*/
+  --Toggle: hsl(230, 22%, 74%);
+  --WhiteBG: hsl(0, 0%, 100%);
+--VeryPaleBlueTop: hsl(225, 100%, 98%);
+--LightGrayishBlueCardBG: hsl(227, 47%, 96%);
+--DarkGrayishBlueText: hsl(228, 12%, 44%);
+--VeryDarkBlueText: hsl(230, 17%, 14%);
 }

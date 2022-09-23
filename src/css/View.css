@@ -1,0 +1,63 @@
+@import url("../App.css");
+.container-view{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--LightGrayishBlueCardBG);
+    border-radius: .5rem;
+    cursor: pointer;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+.container-view:hover{
+    background-color: var(--Toggle);
+}
+.container-view.dark{
+    background-color: var(--DarkDesaturatedBlueCardBG);
+}
+.container-view.dark:hover{
+    background-color: var(--DarkGrayishBlueText);
+}
+.info-number{
+    width: 7rem;
+}
+.info-number>p{
+    margin: .5rem auto;
+    font-weight: 700;
+    color: var(--DarkGrayishBlueText);
+}
+.info-number>p.dark{
+    color: var(--DesaturatedBlueText);
+}
+.info-number>h3{
+    font-size: 2.5rem;
+}
+.info-number>h3.dark{
+    color: var(--WhiteText);
+}
+.img-percent{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.icon-social-media{
+    margin: .5rem;
+}
+.percent{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--LimeGreen);
+}
+.container-view:nth-child(2)>div+div>.percent,.container-view:nth-child(7)>div+div>.percent,.container-view:nth-child(8)>div+div>.percent{
+    color: var(--BrightRed);
+}
